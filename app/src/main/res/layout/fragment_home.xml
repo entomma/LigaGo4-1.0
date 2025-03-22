@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="194dp"
+        android:layout_height="203dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/mainlogo"
+        android:layout_marginTop="75dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginBottom="65dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:lineSpacingExtra="-8sp"
+        android:text="LIGA GO! – Your Ultimate Basketball League Management System"
+        android:textColor="@color/white"
+        android:textSize="32dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="245dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Welcome to LIGA GO!, the all-in-one solution for managing basketball leagues with ease. Whether you're organizing tournaments, tracking team performances, or managing brackets, our app provides a seamless experience for players, coaches, and fans alike."
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+"
+
+
+
+</FrameLayout>
