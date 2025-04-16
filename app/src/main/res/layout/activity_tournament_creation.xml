@@ -1,36 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
-    android:orientation="vertical"
-    android:gravity="center">
+    tools:context=".TournamentCreationActivity">
 
-    <EditText
-        android:id="@+id/etNumTeams"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter Number of Teams"
-        android:inputType="number"/>
-
-    <LinearLayout
-        android:id="@+id/teamInputContainer"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"/>
-
-    <Button
-        android:id="@+id/btnGenerateTournament"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/black"
-        android:text="Create Tournament" />
-
-    <TextView
-        android:id="@+id/tvTournamentBracket"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Tournament Bracket will appear here"
-        android:padding="10dp"
-        android:textSize="16sp"/>
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

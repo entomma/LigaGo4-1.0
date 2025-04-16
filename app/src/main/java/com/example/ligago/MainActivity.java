@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
 import com.google.android.material.navigation.NavigationView;
 import android.content.Intent;
+import android.widget.Button;
 
 
 import android.widget.ImageView;
@@ -16,11 +17,18 @@ import android.os.Bundle;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class MainActivity extends AppCompatActivity {
-
+    private static String ip = "10.0.2.2";
+    private static String port = "5432";
+    private static String classes = "org.postgresql.Driver";
+    private static String database = "liga GO!";
+    private static String username = "postgres";
+    private static String password = "leerajenn";
+    private static String url = "jdbc:postgresql://" + ip + ":" + port + "/" + database;
     FloatingActionButton fab;
     DrawerLayout drawerLayout;
     Toolbar toolbar;
     NavigationView navigationView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -76,6 +84,8 @@ public class MainActivity extends AppCompatActivity {
             return true;
 
         });
+
+
     }
     private void setFragment(Fragment fragment, String title) {
         getSupportFragmentManager()
@@ -86,3 +96,5 @@ public class MainActivity extends AppCompatActivity {
     }
 
 }
+
+
